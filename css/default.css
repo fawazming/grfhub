@@ -2,29 +2,25 @@
 *
 * [Default Stylesheet]
 *
-* Theme    : NEXGEN
-* Version  : 1.0
+* Theme    : NEXGEN                    * Version  : 1.0
 * Author   : Codings
-* Support  : codings.dev
-* 
-----------------------------------------------*/
+* Support  : codings.dev               *
+---------------------------------------
+-------*/
 
 /*----------------------------------------------
 
 [ALL CONTENTS]
 
-1. Root
-2. Button
+1. Root                                2. Button
 3. Effect
 
-----------------------------------------------*/
-
-/*----------------------------------------------
-1. Root
-----------------------------------------------*/
+---------------------------------------
+-------*/                              
+/*----------------------------------------------                              1. Root                                ---------------------------------------
+-------*/
 
 /* #region Root */
-
 :root {
     --h1-font: 'Poppins', sans-serif;
     --h1-size: 4.5rem;
@@ -33,53 +29,50 @@
     --h2-font: 'Poppins', sans-serif;
     --h2-size: 3rem;
     --h2-weight: 700;
-    
+
     --p-font: 'Montserrat', sans-serif;
     --p-size: 1rem;
     --p-weight: 400;
 
-    --header-bg-color: #21333e;
-    --nav-top-bg-color: #21333e;
-    --nav-sub-bg-color: #21333e;
-    --nav-holder-bg-color: #21333e;
+    /* Updated Bright Colors */
+    --header-bg-color: #ff6347; /* Tomato for the header */
+    --nav-top-bg-color: #ff6347;
+    --nav-sub-bg-color: #ff6347;
+    --nav-holder-bg-color: #ff6347;
     --nav-brand-height: 35px;
-    --nav-item-color: #f9f9f9;
-    --hero-bg-color: #111117;
+    --nav-item-color: #ffffff; /* Pure white for nav items */
+    --hero-bg-color: #ffd700; /* Golden for hero background */
     --footer-brand-height: 80px;
+    --primary-color: #00ced1; /* Dark turquoise as the primary color */
+    --secondary-color: #ffb400; /* Bright golden yellow as secondary color */
+    --white-color: #ffffff; /* Pure white */
+    --black-color: #000000; /* Deep black */
+    --dark-grey-color: #2c3e50; /* Dark navy grey */
+    --primary-t-color: #f0e68c; /* Khaki text for primary sections */
+    --secondary-t-color: #fefefe;
 
-    --primary-color: #058283;
-    --secondary-color: #00a6a6;
-    
-    --white-color: #ffffff;
-    --black-color: #000007;
-    --dark-grey-color: #111117;
+    --primary-p-color: #ff6f61;
+    --secondary-p-color: #2c3e50;
 
-    --primary-t-color: #21333e;
-    --secondary-t-color: #f9f9f9; 
-    --primary-p-color: #606d75;
-    --secondary-p-color: #c0c3d0;
-    --primary-b-color: #f9f9f9;
+    --primary-b-color: #ffffff;
     --primary-l-color: rgba(0, 0, 0, .25);
     --secondary-l-color: rgba(255, 255, 255, 0.35);
 
-    --valid-color: #007a4d;
-    --invalid-color: #e34f4f;
+    --valid-color: #4caf50;
+    --invalid-color: #f44336;
 
-    --primary-bg-color: #f9f9f9;
-    --primary-bg-color-2: #f1f1f1;
-    --primary-bg-color-3: rgba(5, 130, 131, 0.15);
+    --primary-bg-color: #ffffff;
+    --primary-bg-color-2: #f0f8ff;
+    --primary-bg-color-3: rgba(0, 206, 209, 0.15);
 
-    --secondary-bg-color: #111117;
-    --secondary-bg-color-2: #080d10;
-    --secondary-bg-color-3: #191919;
+    --secondary-bg-color: #ffd700;
+    --secondary-bg-color-2: #ff6347;
+    --secondary-bg-color-3: #ffb400;
 
     --card-bg-color: #ffffff;
-
-    --footer-bg-color: #111117;
+    --footer-bg-color: #2c3e50;
 }
-
 /* #endregion Root */
-
 /*----------------------------------------------
 2. Button
 ----------------------------------------------*/
